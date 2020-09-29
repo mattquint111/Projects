@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test Timer</title>
-</head>
-<body>
-    
-    <script src='test-code.js'></script>
-</body>
+  </head>
+  <body>
+    <div id="container">
+      <div id="clock">
+        <div id="timer">
+          <div id="clock-actions">
+            <button id="timer-start">Start</button>
+            <button id="timer-pause">Pause</button>
+            <button id="timer-stop">Stop</button>
+          </div>
+        </div>
+        <div id='timer-info'>
+            <h3>Your Sessions </h3>
+            <ul id='timer-sessions'></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="test-code.js"></script>
+  </body>
 </html>
